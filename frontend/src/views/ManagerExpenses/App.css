@@ -1,0 +1,200 @@
+.App5 {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title {
+    color:rgb(232, 236, 232);
+    font-size: 2.5rem;
+  }
+  
+  .label {
+    color: rgb(255, 208, 0);
+    margin:10px;
+    font-size: 20px;
+    font-weight: normal;
+   
+  }
+  
+  
+
+  .input{
+    margin: 15px 0;
+    font-size: 16px;
+    padding: 10px;
+    width: 250px;
+    border: 1px solid rgba(10, 180, 180, 1);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(20, 20, 20, .2);
+    color: white;
+    outline: none;
+    margin-top: -5px;
+    margin-bottom: 12px;
+  }
+
+  /* .input{
+    margin: 15px 0;
+    font-size: 16px;
+    padding: 10px;
+    width: 250px;
+    border: 1px solid rgba(10, 180, 180, 1);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(20, 20, 20, .2);
+    color: whitesmoke;
+    outline: none;
+    margin-top: -5px;
+    margin-bottom: 12px;
+  } */
+
+
+  
+  .wrapper{
+    width:420px;
+    height: 500px;
+    background-origin: 0.5;
+    margin: 30px;
+    opacity: 0.7;
+    filter: alpha(opacity=50);
+    border-radius: 10px;
+    background:black;
+    transition: .2s;
+    align-self: center;
+  }
+
+  .wrapper h1{
+     font-weight: 300;
+     font-family:Trebuchet MS;
+     font-size: 45px;
+     color: rgb(233, 206, 53);
+         
+  }
+
+  .submit button {
+    border: 1px solid rgba(10, 180, 180, 1);
+    background: rgba(20, 20, 20, .6);
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 50px;
+    cursor: pointer;
+    transition: .4s;
+    box-shadow: 1px 2px 5px #000000; 
+    
+  }
+  .submit button:hover{
+    background: rgba(6, 135, 6, 0.313);
+    box-shadow: 1px 2px 5px greenyellow; 
+    color:yellowgreen;
+
+  }
+
+  .date{
+    border: 1px solid rgba(10, 180, 180, 1);
+    background: rgba(20, 20, 20, .6);
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 50px;
+    cursor: pointer;
+    transition: .4s;
+    box-shadow: 1px 2px 5px #000000; 
+    text-align: center;
+    
+  }
+
+  .date:hover{
+    background: rgba(6, 135, 6, 0.313);
+    box-shadow: 1px 2px 5px greenyellow; 
+    color:yellowgreen;
+
+  }
+
+ 
+  .wrapp h2{
+   text-align: center;
+  }
+
+  .form-group-col-md-6 label{
+    color: black;
+    margin-left:80px;
+    
+  }
+  
+  .form-group-col-md-6 input{
+    margin-bottom:25px;
+    margin-left:70px;
+    margin-right: 20px;
+    margin-top:10px;
+    margin: 15px 0;
+    font-size: 16px;
+    padding: 10px;
+    width: 250px;
+    border: 1px solid rgba(10, 180, 180, 1);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(20, 20, 20, .2);
+    color: white;
+    outline: none;
+    margin-top: -5px;
+    margin-bottom: 12px;
+    color: #7cf50b;
+   
+  }
+
+  .form-group-col-md-2 label{
+    color: black;
+  }
+
+  .form-group-col-md-4 label{
+    color: black;
+    margin-left: 23px;
+  }
+
+  .form-group-col-md-4 input{
+    margin-left: 21px;
+    margin-bottom: 25px;
+    
+  }
+  .form-group label{
+    color:black;
+    
+  }
+  
+  .btn-btn-primary{
+    background: #7cf50b;
+    border:rgb(161, 161, 156);
+    padding:10px;
+    border-radius: 5px;
+    padding-left:15px;
+    padding-right: 15px;
+    margin-right: 408px;
+    margin-left:70px;
+    margin-top: 10px;
+   
+  }
+
+  .btn-btn-success{
+    background: #7cf50b;
+    border:rgb(161, 161, 156);
+    padding:10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+  .wrapp h4{
+    color:rgb(243, 243, 9);
+    font-weight: bolder;
+  }

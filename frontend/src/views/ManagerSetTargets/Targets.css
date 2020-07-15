@@ -1,0 +1,22 @@
+.grid {
+  align-items: stretch;
+}
+
+.griditem {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.title {
+  color:rgb(73, 43, 3);
+  font-size: 4rem;
+  text-align: center;
+}
+
+.title2 {
+  color:rgb(25, 73, 3);
+  font-size: 1.5rem;
+  text-align: center;
+}

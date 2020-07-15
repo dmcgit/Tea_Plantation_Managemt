@@ -1,0 +1,242 @@
+/* .wrap{
+    width:600px;
+    height: 600px;
+    background-origin: 0.71;
+    margin: 5px;;
+    opacity: 0.9;
+    filter: alpha(opacity=80);
+    border-radius: none;
+    background:none;
+    transition: .2s;
+    background-color: black;
+  } */
+
+  .wrap{
+    filter: alpha(opacity=50);
+    border-radius: 10px;
+    background-color:black;  
+    width:1000px;
+    margin-left:100px;
+    margin-top:100px;
+    padding: 20px;
+    color:black;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    background-origin: 0.5;
+    margin: 30px;
+    opacity: 0.7;
+  }
+
+  .wrap h2{
+    text-align: center;
+    
+   }
+
+   .wrap h4{
+    color:rgb(243, 243, 9);
+    font-weight: bolder;
+  }
+
+  .App {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ 
+  
+  
+  
+  
+  
+  .input{
+    margin: 15px 0;
+    font-size: 16px;
+    padding: 10px;
+    width: 250px;
+    border: 1px solid rgb(11, 165, 165);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(20, 20, 20, .2);
+    color: white;
+    outline: none;
+    margin-top: -5px;
+    margin-bottom: 12px;
+  }
+  .form-control{
+    margin-left:85px ;
+    font-size: 16px;
+    padding: 10px;
+    width: 250px;
+    border: 1px solid rgba(10, 180, 180, 1);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(20, 20, 20, .2);
+    color: white;
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 12px;
+  }
+  
+  
+  
+  /* .wrapper{
+    width:420px;
+    height: 500px;
+    background-origin: 0.5;
+    margin: 30px;
+    opacity: 0.7;
+    filter: alpha(opacity=50);
+    border-radius: 10px;
+    background:black;
+    transition: .2s;
+  } */
+/*   
+  .wrapper h1{
+     font-weight: 300;
+     font-family:Trebuchet MS;
+     font-size: 45px;
+     color: rgb(233, 206, 53);
+         
+  } */
+  
+  .submit button {
+    border: 1px solid rgba(10, 180, 180, 1);
+    background: rgba(20, 20, 20, .6);
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 50px;
+    cursor: pointer;
+    transition: .4s;
+    box-shadow: 1px 2px 5px #000000; 
+    
+  }
+  .submit button:hover{
+    background: rgba(6, 135, 6, 0.313);
+    box-shadow: 1px 2px 5px greenyellow; 
+    color:yellowgreen;
+  
+  }
+  
+  .date{
+    border: 1px solid rgba(10, 180, 180, 1);
+    background: rgba(20, 20, 20, .6);
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 50px;
+    cursor: pointer;
+    transition: .4s;
+    box-shadow: 1px 2px 5px #000000; 
+    text-align: center;
+    
+  }
+  
+  .date:hover{
+    background: rgba(6, 135, 6, 0.313);
+    box-shadow: 1px 2px 5px greenyellow; 
+    color:yellowgreen;
+  
+  }
+  
+  
+  /* .wrapp h2{
+   text-align: center;
+   
+  } */
+  
+  /* .wrapp{
+    filter: alpha(opacity=50);
+    border-radius: 10px;
+    background-color:black;  
+    width:900px;
+    margin-left:360px;
+    margin-top:100px;
+    padding: 20px;
+    color:black;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    background-origin: 0.5;
+    margin: 30px;
+    opacity: 0.7;
+  } */
+  
+  .form-group-col-md-6 label{
+    color: black;
+    margin-left:80px;
+    
+  }
+  
+  .form-group-col-md-6 input{
+    margin-bottom:25px;
+    margin-left:70px;
+    margin-right: 50px;
+    margin-top:10px;
+    margin: 15px 0;
+    font-size: 16px;
+    padding: 10px;
+    width: 250px;
+    border: 1px solid rgba(10, 180, 180, 1);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(20, 20, 20, .2);
+    color: rgb(255, 255, 255);
+    outline: none;
+    margin-top: -5px;
+    margin-bottom: 12px;
+    color: #7cf50b;
+   
+  }
+  
+  .form-group-col-md-2 label{
+    color: black;
+  }
+  
+  .form-group-col-md-4 label{
+    color: black;
+    margin-left: 10px;
+  }
+  
+  .form-group-col-md-4 input{
+    margin-left: 21px;
+    margin-bottom: 25px;
+    
+  }
+  .form-group label{
+    color:black;
+    
+  }
+  
+  .btn-btn-primary{
+    background: #7cf50b;
+    border:rgb(161, 161, 156);
+    padding:10px;
+    border-radius: 5px;
+    padding-left:15px;
+    padding-right: 15px;
+    margin-right: 408px;
+    margin-left:70px;
+    margin-top: 10px;
+   
+  }
+  
+  .btn-btn-success{
+    background: #7cf50b;
+    border:rgb(161, 161, 156);
+    padding:10px;
+    border-radius: 5px;
+    margin-top: -5px;
+    margin-left:50px;
+  }
+   

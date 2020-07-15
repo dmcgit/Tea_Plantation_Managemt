@@ -1,0 +1,49 @@
+.clearfix {
+    overflow: auto;
+  }
+
+.heading h1{
+    width: 1100px;
+    background: linear-gradient(yellowgreen, yellow);
+    border:none;
+    margin-top:-300px;
+    text-align: left;
+    font-weight: bolder;
+
+    
+}
+
+.heading h3{
+    margin-top:5px;
+    text-align: left;
+    font-weight: bolder;
+    color: rgb(144, 233, 10);
+}
+
+
+.click button{
+    margin-top:60px;    
+    margin-left:-10px;     
+    border: yellow;
+    background: rgba(63, 187, 5, 0.993);
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 50px;
+    cursor: pointer;
+    transition: .4s;
+    
+    
+}
+
+
+.heading h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+	background: linear-gradient(to right,yellow 10%, rgb(96, 243, 11) 20%, rgb(255, 121, 10) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-size:55px;
+    font-family: monospace;
+}
+  
