@@ -36,7 +36,7 @@ Frontend - Reactjs
 
 Backend - Nodejs 
 
-Database - MongoDB
+Database - Mysql
 
 ## Demo
 ![1](https://user-images.githubusercontent.com/54970999/87620511-62eebe00-c73c-11ea-9225-28c10735edd7.PNG) 
