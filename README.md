@@ -1,6 +1,6 @@
 # Tea_Plantation_Managemt
 
-**Development**
+## Development
 
 **1. clone code**
 
@@ -32,9 +32,9 @@ npm start
 
 
 ## Technologies
-Frontend - Reactjs ||
+Frontend - Reactjs 
 
-Backend - Nodejs ||
+Backend - Nodejs 
 
 Database - MongoDB
 
